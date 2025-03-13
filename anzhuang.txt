@@ -14,3 +14,8 @@ python install.py 等待输出
 
 进入pycharm选择conda新建。选择"D:\IDE\Miniconda\condabin\conda.bat" 重新加载
 选择目标目录的虚拟环境进行配置
+设置运行路径
+选中st.py然后编辑接下来，为 Streamlit 创建一个运行配置：
+转到 运行 > 编辑配置，点击“+”添加一个新的 Python 配置。
+将“运行脚本或模块”设置为“Module”，输入“streamlit”作为Moudle名称，并在“脚本形参”中输入“run st.py”。
+确保“工作目录”设置为包含 st.py 文件的目录。
